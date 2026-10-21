@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#f8f8f8">
+  <meta name="description" content="Modern — members area. Sign in to your creative community.">
+  <title>Modern — Members</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23222'/%3E%3Ctext x='7' y='45' fill='white' font-family='Arial' font-size='42' font-weight='bold'%3EW.%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="/login.css">
+  <script src="/i18n.js" defer></script>
+  <script src="/login.js" defer></script>
+</head>
+<body>
+  <main class="login-shell">
+    <section class="login-side" aria-labelledby="login-title">
+      <header class="login-header"><a class="login-logo" href="/login" aria-label="Modern">W.</a><div class="language-switch" role="group" aria-label="Language"><button type="button" data-language="uz" aria-pressed="true">UZ</button><button type="button" data-language="ru" aria-pressed="false">RU</button><button type="button" data-language="en" aria-pressed="false">EN</button></div></header>
+      <div class="login-main">
+        <p class="login-eyebrow"><span></span> <span data-i18n="login.eyebrow">IJODKORLAR HAMJAMIYATI</span></p>
+        <h1 id="login-title" data-i18n="login.title">Yana uchrashdik.</h1>
+        <p class="login-description" data-i18n="login.description">Yangi g‘oyalar, yaxshi suhbatlar. Davom etish uchun hisobingizga kiring.</p>
+        <form id="login-form" class="login-form">
+          <label class="login-field"><span data-i18n="login.username">Login</span><input name="username" autocomplete="username" autocapitalize="none" spellcheck="false" minlength="3" maxlength="32" required placeholder="Foydalanuvchi nomi" data-i18n-placeholder="login.usernamePlaceholder"></label>
+          <label class="login-field"><span data-i18n="login.password">Parol</span><span class="password-input"><input name="password" type="password" autocomplete="current-password" required maxlength="128" placeholder="Parolingizni kiriting" data-i18n-placeholder="login.passwordPlaceholder"><button type="button" id="password-toggle" aria-label="Parolni ko‘rsatish" aria-pressed="false"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M2 12s3.5-6.5 10-6.5S22 12 22 12s-3.5 6.5-10 6.5S2 12 2 12Z"/><circle cx="12" cy="12" r="3"/></svg></button></span></label>
+          <div class="login-form-note"><span class="access-label"><svg viewBox="0 0 16 16" width="12" height="12" fill="none" stroke="currentColor" aria-hidden="true"><rect x="3" y="7" width="10" height="7" rx="2"/><path d="M5 7V4a3 3 0 0 1 6 0v3"/></svg><span data-i18n="login.private">Faqat taklif qilingan a’zolar uchun</span></span><button type="button" id="password-help" data-i18n="login.forgot">Parol esdan chiqdimi?</button></div>
+          <p id="login-error" role="alert" class="login-message error" hidden></p>
+          <p id="login-help" role="status" class="login-message help" hidden data-i18n="login.help">Parolni tiklash uchun sayt administratoriga murojaat qiling.</p>
+          <button type="submit" class="login-submit"><span data-i18n="login.submit">Hisobga kirish</span><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M5 19 19 5M5 5h14v14"/></svg></button>
+          <noscript>Saytga kirish uchun brauzeringizda JavaScript yoqilgan bo‘lishi kerak.</noscript>
+        </form>
+        <div class="login-invite"><span class="invite-icon" aria-hidden="true">✳</span><p><strong data-i18n="login.inviteTitle">O‘z davrangiz. Yangi imkoniyatlar.</strong><span data-i18n="login.inviteCopy">Hisoblar va kirish huquqlarini administrator boshqaradi.</span></p></div>
+      </div>
+      <footer class="login-footer"><span>© <span id="login-year">2026</span> Modern</span><span data-i18n="login.footer">Dizayn birlashtiradi.</span></footer>
+    </section>
+    <aside class="login-art" aria-label="Creative community illustration">
+      <div class="art-top"><span>MODERN®<br>DIGITAL COMMUNITY</span><span class="art-members">MEMBERS / ONLY</span></div>
+      <div class="art-headline" aria-hidden="true">Good design.<br>Great <em>people.</em></div>
+      <div class="login-sculpture" aria-hidden="true"><svg viewBox="0 0 460 470"><defs><linearGradient id="ring-grad" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fffff1"/><stop offset=".3" stop-color="#ede8d9"/><stop offset=".65" stop-color="#b8b7a6"/><stop offset="1" stop-color="#f3efdf"/></linearGradient><linearGradient id="ring-shadow"><stop stop-color="#adac9c"/><stop offset="1" stop-color="#e9e3d3"/></linearGradient></defs><g transform="translate(35 5) rotate(-20 200 220)"><path d="M202 45C299 43 370 110 373 207c3 101-60 174-166 179C105 391 32 322 29 224 26 123 100 49 202 45Zm-3 90c-49 1-79 36-77 83 2 49 36 79 82 78 48-2 79-35 77-83-2-47-35-80-82-78Z" fill="url(#ring-grad)" fill-rule="evenodd"/><path d="M201 135c-17 16-25 41-23 67 2 47 35 75 80 74-14 12-33 19-54 20-46 1-80-29-82-78-2-47 28-82 79-83Z" fill="url(#ring-shadow)"/><path d="M83 302c42 55 113 75 182 48" fill="none" stroke="#fff9ee" stroke-width="2" opacity=".4"/></g><path d="M337 290v100m-50-50h100m-85-35 70 70m-70 0 70-70" stroke="#222" stroke-width="18"/><circle cx="337" cy="340" r="16" fill="#ff6c37"/></svg></div>
+      <div class="art-bottom"><div class="community-avatars" aria-hidden="true"><span>M</span><span>R</span><span>S</span><span>+</span></div><p data-i18n="login.artCaption">Bitta maydon. Cheksiz g‘oyalar.</p><svg viewBox="0 0 24 24" width="32" height="32" fill="none" stroke="currentColor" stroke-width="1" aria-hidden="true"><path d="M5 19 19 5M5 5h14v14"/></svg></div>
+    </aside>
+  </main>
+</body>
+</html>
